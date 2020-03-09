@@ -39,7 +39,7 @@ Git va recrea automat structura de foldere din repository si va aduce ultima ver
 * Dupa ce ne-am facut modificarile, adaugat fisierele si am terminat in general de lucrat local, si suntem gata de a publica ceea ce am facut folosim comanda "git status" pentru a vedea modificarile fata de versiunea curenta a ramurii:
 ![status](https://github.com/Mircea-Z/CSIE-Master-Statistica-2019-2021/blob/master/imagini/status.PNG)
 * Folosind "git add" putem adauga in branch fisierele pe care le dorim. Parametrul ""--all" le adauga pe toate insa putem specifica de asemenea fisiere individuale cu "git add calea/catre/fisier.fis":   
-![staging](https://github.com/Mircea-Z/CSIE-Master-Statistica-2019-2021/blob/master/imagini/staging.PNG)
+![staging](https://github.com/Mircea-Z/CSIE-Master-Statistica-2019-2021/blob/master/imagini/staging.PNG)  
 Vedem atunci in "status" ca toate fisierele sunt acum trecute cu verde.
 * Apoi folosim comanda "git commit" pentru a confirma schimbarile si a adauga un comentariu explicativ:   
 ![commit](https://github.com/Mircea-Z/CSIE-Master-Statistica-2019-2021/blob/master/imagini/commit.PNG)
