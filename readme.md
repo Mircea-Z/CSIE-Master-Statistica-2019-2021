@@ -33,4 +33,9 @@ ca in aceasta imagine:
 Git va recrea automat structura de foldere din repository si va aduce ultima versiune a tuturor fisierelor.
 
 * Folosind comanda "cd" navigati in folderul principal: ![cd](cd.png)
-* Folsind comanda "checkout" schimbati ramura la cea care va corespunde ![checkout](checkout.png)
+
+* Folosind comanda "git checkout" schimbati ramura la cea care va corespunde ![checkout](checkout.png)
+
+* Dupa ce ne-am facut modificarile, adaugat fisierele si am terminat in general de lucrat local, si suntem gata de a publica ceea ce am facut folosim comanda "git status" pentru a vedea modificarile fata de versiunea curenta a ramurii: ![status](status.png)
+* Folosind "git add" putem adauga in branch fisierele pe care le dorim. Parametrul ""--all" le adauga pe toate insa putem specifica de asemenea fisiere individuale cu "git add calea/catre/fisier.fis": ![staging](staging.png)
+Vedem atunci in "status" ca toate fisierele sunt acum trecute cu verde.
