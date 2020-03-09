@@ -39,3 +39,5 @@ Git va recrea automat structura de foldere din repository si va aduce ultima ver
 * Dupa ce ne-am facut modificarile, adaugat fisierele si am terminat in general de lucrat local, si suntem gata de a publica ceea ce am facut folosim comanda "git status" pentru a vedea modificarile fata de versiunea curenta a ramurii: ![status](status.png)
 * Folosind "git add" putem adauga in branch fisierele pe care le dorim. Parametrul ""--all" le adauga pe toate insa putem specifica de asemenea fisiere individuale cu "git add calea/catre/fisier.fis": ![staging](staging.png)
 Vedem atunci in "status" ca toate fisierele sunt acum trecute cu verde.
+* Apoi folosim comanda "git commit" pentru a confirma schimbarile si a adauga un comentariu explicativ: ![commit](commit.png)
+* Comanda "git push" trimite schimbarile catre repo-ul de pe GitHub, moment din care branch-ul nostru este complet adus la zi: ![push](push.png)
