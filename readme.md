@@ -19,7 +19,7 @@ Pentru cei cu MacOS exista o serie de clienti pe care ii puteti gasi [aici](http
 
 * Propun sa mentinem [ramura/branch-ul](https://guides.github.com/introduction/flow/) master gol (sau sa contina doar acest readme)
 
-* Fiecare utilizator va avea un branch propriu pe care va avea acces de editarea protejat
+* Fiecare utilizator va avea un branch propriu pe care isi va publica teme/proiecte.
 
 ### Mod de lucru
 
