@@ -28,13 +28,13 @@ Pentru cei cu MacOS exista o serie de clienti pe care ii puteti gasi [aici](http
 > git clone https://github.com/Mircea-Z/CSIE-Master-Statistica-2019-2021.git
 
 ca in aceasta imagine:
-![cd](https://github.com/Mircea-Z/CSIE-Master-Statistica-2019-2021/blob/master/imagini/CD.PNG)
+![cd](https://github.com/Mircea-Z/CSIE-Master-Statistica-2019-2021/blob/master/imagini/clone.png)
 
 Git va recrea automat structura de foldere din repository si va aduce ultima versiune a tuturor fisierelor.
 
-* Folosind comanda "cd" navigati in folderul principal: ![cd](https://github.com/Mircea-Z/CSIE-Master-Statistica-2019-2021/blob/master/imagini/checkout.PNG)
+* Folosind comanda "cd" navigati in folderul principal: ![cd](https://github.com/Mircea-Z/CSIE-Master-Statistica-2019-2021/blob/master/imagini/CD.PNG)
 
-* Folosind comanda "git checkout" schimbati ramura la cea care va corespunde ![cd](https://github.com/Mircea-Z/CSIE-Master-Statistica-2019-2021/blob/master/imagini/status.PNG)
+* Folosind comanda "git checkout" schimbati ramura la cea care va corespunde ![cd](https://github.com/Mircea-Z/CSIE-Master-Statistica-2019-2021/blob/master/imagini/checkout.png)
 
 * Dupa ce ne-am facut modificarile, adaugat fisierele si am terminat in general de lucrat local, si suntem gata de a publica ceea ce am facut folosim comanda "git status" pentru a vedea modificarile fata de versiunea curenta a ramurii: ![cd](https://github.com/Mircea-Z/CSIE-Master-Statistica-2019-2021/blob/master/imagini/staging.png)
 * Folosind "git add" putem adauga in branch fisierele pe care le dorim. Parametrul ""--all" le adauga pe toate insa putem specifica de asemenea fisiere individuale cu "git add calea/catre/fisier.fis": ![cd](https://github.com/Mircea-Z/CSIE-Master-Statistica-2019-2021/blob/master/imagini/commit.png)
