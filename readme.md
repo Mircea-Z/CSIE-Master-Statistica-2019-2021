@@ -28,16 +28,16 @@ Pentru cei cu MacOS exista o serie de clienti pe care ii puteti gasi [aici](http
 > git clone https://github.com/Mircea-Z/CSIE-Master-Statistica-2019-2021.git
 
 ca in aceasta imagine:
-![cd](https://github.com/Mircea-Z/CSIE-Master-Statistica-2019-2021/blob/master/imagini/clone.png)
+![clone](https://github.com/Mircea-Z/CSIE-Master-Statistica-2019-2021/blob/master/imagini/clone.PNG)
 
 Git va recrea automat structura de foldere din repository si va aduce ultima versiune a tuturor fisierelor.
 
 * Folosind comanda "cd" navigati in folderul principal: ![cd](https://github.com/Mircea-Z/CSIE-Master-Statistica-2019-2021/blob/master/imagini/CD.PNG)
 
-* Folosind comanda "git checkout" schimbati ramura la cea care va corespunde ![cd](https://github.com/Mircea-Z/CSIE-Master-Statistica-2019-2021/blob/master/imagini/checkout.png)
+* Folosind comanda "git checkout" schimbati ramura la cea care va corespunde ![checkout](https://github.com/Mircea-Z/CSIE-Master-Statistica-2019-2021/blob/master/imagini/checkout.PNG)
 
-* Dupa ce ne-am facut modificarile, adaugat fisierele si am terminat in general de lucrat local, si suntem gata de a publica ceea ce am facut folosim comanda "git status" pentru a vedea modificarile fata de versiunea curenta a ramurii: ![cd](https://github.com/Mircea-Z/CSIE-Master-Statistica-2019-2021/blob/master/imagini/staging.png)
-* Folosind "git add" putem adauga in branch fisierele pe care le dorim. Parametrul ""--all" le adauga pe toate insa putem specifica de asemenea fisiere individuale cu "git add calea/catre/fisier.fis": ![cd](https://github.com/Mircea-Z/CSIE-Master-Statistica-2019-2021/blob/master/imagini/commit.png)
+* Dupa ce ne-am facut modificarile, adaugat fisierele si am terminat in general de lucrat local, si suntem gata de a publica ceea ce am facut folosim comanda "git status" pentru a vedea modificarile fata de versiunea curenta a ramurii: ![cd](https://github.com/Mircea-Z/CSIE-Master-Statistica-2019-2021/blob/master/imagini/status.png)
+* Folosind "git add" putem adauga in branch fisierele pe care le dorim. Parametrul ""--all" le adauga pe toate insa putem specifica de asemenea fisiere individuale cu "git add calea/catre/fisier.fis": ![status](https://github.com/Mircea-Z/CSIE-Master-Statistica-2019-2021/blob/master/imagini/staging.PNG)
 Vedem atunci in "status" ca toate fisierele sunt acum trecute cu verde.
-* Apoi folosim comanda "git commit" pentru a confirma schimbarile si a adauga un comentariu explicativ: ![cd](https://github.com/Mircea-Z/CSIE-Master-Statistica-2019-2021/blob/master/imagini/CD.PNG)
-* Comanda "git push" trimite schimbarile catre repo-ul de pe GitHub, moment din care branch-ul nostru este complet adus la zi: ![cd](https://github.com/Mircea-Z/CSIE-Master-Statistica-2019-2021/blob/master/imagini/push.png)
+* Apoi folosim comanda "git commit" pentru a confirma schimbarile si a adauga un comentariu explicativ: ![commit](https://github.com/Mircea-Z/CSIE-Master-Statistica-2019-2021/blob/master/imagini/commit.PNG)
+* Comanda "git push" trimite schimbarile catre repo-ul de pe GitHub, moment din care branch-ul nostru este complet adus la zi: ![push](https://github.com/Mircea-Z/CSIE-Master-Statistica-2019-2021/blob/master/imagini/push.PNG)
