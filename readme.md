@@ -45,3 +45,5 @@ Vedem atunci in "status" ca toate fisierele sunt acum trecute cu verde.
 ![commit](https://github.com/Mircea-Z/CSIE-Master-Statistica-2019-2021/blob/master/imagini/commit.PNG)
 * Comanda "git push" trimite schimbarile catre repo-ul de pe GitHub, moment din care branch-ul nostru este complet adus la zi:   
 ![push](https://github.com/Mircea-Z/CSIE-Master-Statistica-2019-2021/blob/master/imagini/push.PNG)
+* Comanda "git pull" forteaza aducerea la zi a branch-ului pe care ne aflam:  
+![pull](https://github.com/Mircea-Z/CSIE-Master-Statistica-2019-2021/blob/master/imagini/pull.PNG)
