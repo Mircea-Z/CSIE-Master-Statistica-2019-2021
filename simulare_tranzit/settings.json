@@ -1,0 +1,25 @@
+{
+  "mode": {
+    "width": 1200,
+    "height": 900
+  },
+  "planet": {
+    "radius": 30,
+    "velocity": 3,
+    "period": 750
+  },
+  "star": {
+    "radius": 250,
+    "variability": {
+      "period": 5000,
+      "amplitude": 0.9,
+      "noise": 0.05
+    },
+    "base_luminosity": 1,
+    "color": {
+      "r": 255,
+      "g": 170,
+      "b": 75
+    }
+  }
+}
