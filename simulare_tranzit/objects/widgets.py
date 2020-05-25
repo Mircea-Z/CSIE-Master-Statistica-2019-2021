@@ -99,16 +99,18 @@ class GraphPort:
         return self.surface
 
     def plot(self, series):
-        median = self.get_median_pixel_value(series)
+
+        if len(series) > self.surface.get_width() - 10:
+            series = series[-self.surface.get_width() - 10:]
         if len(series) == 0:
             _range = 1
         else:
             _range = max(series) - min(series)
         if _range == 0:
             _range = 1
+            
+        median = self.get_median_pixel_value(series)
         points=[]
-        if len(series) > self.surface.get_width() - 10:
-            series = series[-self.surface.get_width() - 10:]
         for i in range(len(series)-1):
             item = series[i]
             y_offset = self.surface.get_height()-int((item-min(series))*self.surface.get_height()/_range)

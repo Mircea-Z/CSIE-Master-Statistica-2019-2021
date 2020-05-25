@@ -69,5 +69,8 @@ class Star:
     def update(self):
         self.timer+=1
         print(math.sin(self.timer), self.luminosity, self.color, sep='|')
-        self.luminosity = self.variability['amplitude']+(math.cos(self.timer)/self.variability['period']+1)*self.variability['amplitude']**2
+        # self.luminosity = self.variability['amplitude']+(math.cos(self.timer)/self.variability['period'])*self.variability['amplitude']**2
+        # self.luminosity = self.luminosity*randint(10000*(1-self.variability['noise']),10000*(1+self.variability['noise']))/10000
+
+        self.luminosity = 1-self.variability['amplitude']+(math.cos(self.timer/self.variability['period']))*self.variability['amplitude']
         self.luminosity = self.luminosity*randint(10000*(1-self.variability['noise']),10000*(1+self.variability['noise']))/10000
